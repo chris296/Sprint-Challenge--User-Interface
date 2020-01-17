@@ -56,6 +56,19 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.jumbo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -112,6 +125,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +196,63 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.jumbo-about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.about{
+    margin: 2% 0%;
+}
+
+.learn-more{
+    display: flex;
+    margin: 10px 0px;
+}
+.learn-more p{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.top-half{
+    display:flex;
+    justify-content: space-evenly;
+    border-top: 1px dashed black;
+    padding: 4% 0%;
+}
+
+.strategy{
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.how{
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-half{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 4% 0%;
+}
+
+.places{
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration{
+    width:45%;
+    border-bottom: 1px dashed black;
+}
+
+.work-together{
+    margin: 5% 0%;
 }
